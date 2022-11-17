@@ -45,7 +45,8 @@ http://localhost:1337/graphql
 // Graphql Register/ login mutation
 https://docs.strapi.io/developer-docs/latest/plugins/graphql.html#usage-with-the-users-permissions-plugin
 
-
+// Mutation for create
+https://docs.strapi.io/developer-docs/latest/developer-resources/database-apis-reference/graphql-api.html#fetch-dynamic-zone-data
 
 
 
