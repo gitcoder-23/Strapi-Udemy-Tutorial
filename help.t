@@ -35,6 +35,24 @@ https://docs.strapi.io/developer-docs/latest/developer-resources/database-apis-r
 // For register user apis
 http://localhost:1337/api/auth/local/register
 
+
+// graphql plugin
+https://docs.strapi.io/developer-docs/latest/plugins/graphql.html#usage
+// graphql API Doc
+https://docs.strapi.io/developer-docs/latest/developer-resources/database-apis-reference/graphql-api.html#queries
+http://localhost:1337/graphql
+
+// Graphql Register/ login mutation
+https://docs.strapi.io/developer-docs/latest/plugins/graphql.html#usage-with-the-users-permissions-plugin
+
+
+
+
+
+
+
+
+
 // section-6
 
 
