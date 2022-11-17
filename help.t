@@ -49,12 +49,13 @@ https://docs.strapi.io/developer-docs/latest/plugins/graphql.html#usage-with-the
 https://docs.strapi.io/developer-docs/latest/developer-resources/database-apis-reference/graphql-api.html#fetch-dynamic-zone-data
 
 
+// Model Creation
+https://docs.strapi.io/developer-docs/latest/development/backend-customization/models.html#model-creation
 
 
 
 
-
-// section-6
+// section-7-56
 
 
 
