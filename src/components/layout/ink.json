@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_layout_inks",
+  "info": {
+    "displayName": "Link",
+    "icon": "long-arrow-alt-right",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string",
+      "required": true
+    },
+    "url": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
