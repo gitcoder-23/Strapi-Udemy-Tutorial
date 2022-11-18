@@ -35,6 +35,32 @@ https://docs.strapi.io/developer-docs/latest/developer-resources/database-apis-r
 // For register user apis
 http://localhost:1337/api/auth/local/register
 
+// Reset Password
+http://localhost:1337/api/auth/reset-password
+
+// Forget-Password
+http://localhost:1337/api/auth/forgot-password
+
+// User auth
+https://strapi.io/blog/strapi-v4-authentication-with-remix
+
+https://medium.com/@giuliamalaroda/authentication-with-next-js-and-strapi-part-2-login-logout-4406f5f74883
+
+
+// Strapi Methods
+
+https://strapi-sdk-js.netlify.app/api/methods/
+
+
+
+
+
+
+
+
+
+
+
 
 // graphql plugin
 https://docs.strapi.io/developer-docs/latest/plugins/graphql.html#usage
