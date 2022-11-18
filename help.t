@@ -99,7 +99,7 @@ https://docs.strapi.io/developer-docs/latest/development/admin-customization.htm
 
 
 
-// section-7-56
+// section-10
 
 
 
