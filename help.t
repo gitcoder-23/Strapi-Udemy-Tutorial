@@ -35,6 +35,9 @@ https://docs.strapi.io/developer-docs/latest/developer-resources/database-apis-r
 // For register user apis
 http://localhost:1337/api/auth/local/register
 
+// Anothr thing
+http://localhost:1337/api/auth/local
+
 // Reset Password
 http://localhost:1337/api/auth/reset-password
 
@@ -77,6 +80,21 @@ https://docs.strapi.io/developer-docs/latest/developer-resources/database-apis-r
 
 // Model Creation
 https://docs.strapi.io/developer-docs/latest/development/backend-customization/models.html#model-creation
+
+// Admin panel customization
+https://docs.strapi.io/developer-docs/latest/development/admin-customization.html
+yarn build
+yarn develop
+if---> yarn develop --watch-admin
+
+https://docs.strapi.io/developer-docs/latest/setup-deployment-guides/configurations/required/admin-panel.html#available-options
+
+
+// Database Structure
+https://docs.strapi.io/developer-docs/latest/setup-deployment-guides/configurations/required/databases.html#configuration-structure
+
+// 86. Admin panel translations
+https://docs.strapi.io/developer-docs/latest/development/admin-customization.html#configuration-options
 
 
 
