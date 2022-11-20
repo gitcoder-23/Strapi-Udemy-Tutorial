@@ -102,7 +102,7 @@ yarn strapi generate
 // auth: false,
 https://www.npmjs.com/package/@octokit/request
 
-// section-10
+// section-10--95
 
 
 
