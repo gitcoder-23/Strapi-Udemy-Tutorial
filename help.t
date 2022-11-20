@@ -98,7 +98,9 @@ https://docs.strapi.io/developer-docs/latest/development/admin-customization.htm
 
 // 90. Creating and activating a plugin
 yarn strapi generate
-
+// localhost:1337/github-projects/gitrepos
+// auth: false,
+https://www.npmjs.com/package/@octokit/request
 
 // section-10
 
