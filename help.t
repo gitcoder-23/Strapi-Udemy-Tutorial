@@ -96,7 +96,8 @@ https://docs.strapi.io/developer-docs/latest/setup-deployment-guides/configurati
 // 86. Admin panel translations
 https://docs.strapi.io/developer-docs/latest/development/admin-customization.html#configuration-options
 
-
+// 90. Creating and activating a plugin
+yarn strapi generate
 
 
 // section-10
