@@ -41,6 +41,16 @@
     },
     "seoDescription": {
       "type": "text"
+    },
+    "author_posts": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "admin::user"
+    },
+    "gTags": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::g-tag.g-tag"
     }
   }
 }
