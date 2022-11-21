@@ -1,0 +1,46 @@
+{
+  "kind": "collectionType",
+  "collectionName": "g_popular_posts",
+  "info": {
+    "singularName": "g-popular-post",
+    "pluralName": "g-popular-posts",
+    "displayName": "G-PopularPost",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title",
+      "required": true
+    },
+    "postDetails": {
+      "type": "richtext"
+    },
+    "postImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "seoTitle": {
+      "type": "string"
+    },
+    "seoDescription": {
+      "type": "text"
+    }
+  }
+}
