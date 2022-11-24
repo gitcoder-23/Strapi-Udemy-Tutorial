@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_button_buttons",
+  "info": {
+    "displayName": "button",
+    "icon": "power-off",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string",
+      "unique": false,
+      "required": false
+    },
+    "url": {
+      "type": "string"
+    }
+  }
+}

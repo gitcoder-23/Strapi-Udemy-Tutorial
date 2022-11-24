@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "g_menu_bottom_details",
+  "info": {
+    "singularName": "g-menu-bottom-detail",
+    "pluralName": "g-menu-bottom-details",
+    "displayName": "G-MenuBottomDetail",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "subTitle": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title",
+      "required": true
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "bodyButton": {
+      "type": "component",
+      "repeatable": false,
+      "component": "button.button"
+    }
+  }
+}

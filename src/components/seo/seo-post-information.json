@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_seo_seo_post_informations",
+  "info": {
+    "displayName": "seoPostInformation",
+    "icon": "search-location"
+  },
+  "options": {},
+  "attributes": {
+    "seoTitle": {
+      "type": "string"
+    },
+    "seoDescription": {
+      "type": "text"
+    }
+  }
+}

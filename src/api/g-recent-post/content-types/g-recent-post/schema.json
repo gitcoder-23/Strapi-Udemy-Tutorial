@@ -1,10 +1,10 @@
 {
   "kind": "collectionType",
-  "collectionName": "g_popular_posts",
+  "collectionName": "g_recent_posts",
   "info": {
-    "singularName": "g-popular-post",
-    "pluralName": "g-popular-posts",
-    "displayName": "G-PopularPost",
+    "singularName": "g-recent-post",
+    "pluralName": "g-recent-posts",
+    "displayName": "G-RecentPost",
     "description": ""
   },
   "options": {
@@ -22,33 +22,31 @@
       "targetField": "title",
       "required": true
     },
-    "postDetails": {
+    "postDetail": {
       "type": "richtext"
     },
     "postImage": {
       "type": "media",
-      "multiple": false,
+      "multiple": true,
       "required": false,
       "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
+        "images"
       ]
     },
-    "author_posts": {
+    "author_rposts": {
       "type": "relation",
       "relation": "oneToMany",
       "target": "admin::user"
     },
-    "gTags": {
+    "gRTags": {
       "type": "relation",
       "relation": "oneToMany",
-      "target": "api::g-tag.g-tag"
+      "target": "api::g-r-tag.g-r-tag"
     },
     "seo": {
+      "displayName": "seoPostInformation",
       "type": "component",
-      "repeatable": true,
+      "repeatable": false,
       "component": "seo.seo-post-information"
     }
   }

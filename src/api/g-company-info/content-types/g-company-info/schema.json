@@ -1,0 +1,30 @@
+{
+  "kind": "singleType",
+  "collectionName": "g_company_infos",
+  "info": {
+    "singularName": "g-company-info",
+    "pluralName": "g-company-infos",
+    "displayName": "G-CompanyInfo",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "companyLogo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "copyRight": {
+      "type": "string"
+    },
+    "companyName": {
+      "type": "string"
+    }
+  }
+}
